@@ -257,11 +257,13 @@ final  927MB  109MB
 Download
 --------
 
-*  alpine: 5s
-*  debian: 8s
+*  alpine: 5s (5.6MB)
+*  debian: 8s (114MB)
+*  golang: 20s (803MB)
 
 .. 5.050, 4.968, 5.025
    7.782, 7.960, 8.256
+   19.757, 20.621, 20.138
 
 ----
 
@@ -300,6 +302,23 @@ Rebuild
    27.44 → 4.50
    26.22 → 4.56
    27.48 → 4.59
+
+----
+
+.. figure:: img/box.jpg
+   :target: https://commons.wikimedia.org/wiki/File:Cardboard_Boxes_and_their_History.jpg
+
+   ※写真はイメージです
+
+:id: package
+
+Package
+-------
+
+*  go.mod, go.sum
+*  Pipfile, requirements.txt
+*  package.json
+*  Gemfile
 
 ----
 
