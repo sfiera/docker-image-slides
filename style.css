@@ -1,0 +1,50 @@
+html {
+   font: 36px "Source Sans Pro", sans-serif;
+   background: #001118;
+   color: #eeeef0;
+   line-height: 150%;
+   user-select: none;
+}
+pre {
+   font: 36px "Source Code Pro", monospace;
+}
+.step {
+   width: 1000px;
+}
+h1 {
+   line-height: 100%;
+}
+figure {
+   float: right;
+   width: 50%;
+   text-align: right;
+   font-size: 18px;
+}
+figure img {
+   width: 100%;
+}
+table {
+   border-spacing: 0.33em;
+}
+table p {
+   margin: 0;
+}
+th {
+   font-weight: 600;
+}
+a:link, a:visited {
+   text-decoration: underline;
+   color: #eeeef0;
+}
+.invert {
+    background: #eeeef0;
+    color: #001118;
+    padding: 0.1em 0.2em;
+    border-radius: 0.25em;
+}
+.code .se,
+.code .o { color: #875fff; }
+.code .k { color: #5f87ff; }
+.code .s2,
+.code .s { color: #00af87; }
+.code .nv { color: #d75fff; }

@@ -1,0 +1,17 @@
+FROM golang:1.13 AS builder
+
+RUN mkdir /src/
+WORKDIR /src/
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY csaas.go ./
+RUN go build csaas.go
+
+FROM debian
+RUN apt-get update \
+ && apt-get install -y cowsay \
+ && rm -rf /var/lib/apt/lists/*
+COPY --from=builder /src/csaas /bin/
+ENV PATH=/usr/games:/usr/bin:/bin
+CMD ["/bin/csaas"]

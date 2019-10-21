@@ -1,0 +1,7 @@
+FROM golang:1.13-alpine
+
+RUN mkdir /src/
+WORKDIR /src/
+COPY go.mod go.sum hello-world.go ./
+RUN go build hello-world.go
+CMD ["/src/hello-world"]
