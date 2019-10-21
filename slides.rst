@@ -169,8 +169,8 @@ Base Image
 ====== ====== ======
 Stages Debian Alpine
 ====== ====== ======
-single 122MB  13.5MB
-double 823MB  380MB
+single 823MB  380MB
+double 122MB  13.5MB
 ====== ====== ======
 
 ----
@@ -187,8 +187,8 @@ Base Size
 ====== ====== ======
 Image  Debian Alpine
 ====== ====== ======
-base   114MB  5.58MB
 golang 803MB  359MB
+base   114MB  5.58MB
 ====== ====== ======
 
 ----
