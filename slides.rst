@@ -1,4 +1,4 @@
-:data-transition-duration: 200
+:data-transition-duration: 0
 :css: style.css
 :skip-help: true
 
@@ -22,10 +22,12 @@
 
 :id: intro
 
+.. figure:: img/portrait.png
+
+   ※写真はイメージです
+
 Intro
 -----
-
-.. class:: center
 
 *  Chris Pickel :invert:`⛏`
 *  `github.com/sfiera <https://github.com/sfiera>`_
@@ -167,10 +169,10 @@ Base Image
 -------
 
 ====== ====== ======
-Stages Debian Alpine
+Image  Debian Alpine
 ====== ====== ======
-single 823MB  380MB
-double 122MB  13.5MB
+1stage 823MB  380MB
+2stage 122MB  13.5MB
 ====== ====== ======
 
 ----
@@ -187,6 +189,9 @@ Base Size
 ====== ====== ======
 Image  Debian Alpine
 ====== ====== ======
+1stage 823MB  380MB
+2stage 122MB  13.5MB
+------ ------ ------
 golang 803MB  359MB
 base   114MB  5.58MB
 ====== ====== ======
@@ -401,10 +406,10 @@ CSaaS Size
 ----------
 
 ====== ======
-Using  Size  
+Using  Size
 ====== ======
-RUN    186MB 
-&&     169MB 
+RUN    186MB
+&&     169MB
 ====== ======
 
 ----
@@ -418,12 +423,12 @@ RUN    186MB
 CSaaS Speed
 -----------
 
-====== ====== ======
-Build  copy   apt   
-====== ====== ======
-first  26s    26s    
-second 13s    4.5s 
-====== ====== ======
+====== ====== =======
+First  build  rebuild
+====== ====== =======
+copy   26s    26s
+apt    13s    4.5s
+====== ====== =======
 
 .. 25.74 → 11.44
    26.45 → 14.93
