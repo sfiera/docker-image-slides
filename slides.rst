@@ -23,6 +23,7 @@
 :id: intro
 
 .. figure:: img/portrait.png
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -131,6 +132,7 @@ Correct
 :id: alpine
 
 .. figure:: img/alps.jpg
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -162,6 +164,7 @@ Base Image
 :id: 2-stage
 
 .. figure:: img/alpine2.jpg
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -180,6 +183,7 @@ Image  Debian Alpine
 :id: base-size
 
 .. figure:: img/alpine3.jpg
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -291,6 +295,7 @@ Download
 :id: rebuild
 
 .. figure:: img/steam.jpg
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -443,6 +448,7 @@ apt    13s    4.5s
 :id: hub
 
 .. figure:: img/newyork.jpg
+   :target: https://sfiera.net
 
    ※写真はイメージです
 
@@ -516,7 +522,6 @@ Localhost
    d7bd1b4be5fc: Waiting
    0508d0ce771e: Waiting
 
-
 ----
 
 :id: fin
@@ -530,6 +535,16 @@ fin
 ---
 
 .. note:: intentionally blank
+
+----
+
+:id: links
+
+Sources
+-------
+
+*  `This presentation <http://github.com/sfiera/docker-image-slides>`_, with source data
+*  All images PD, CC-BY, or by author; linked to original
 
 ----
 
